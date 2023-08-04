@@ -1,0 +1,91 @@
+.theatre-seat-picker {
+    text-align: center;
+    padding: 0 10rem;
+    background-color: #ededf4;
+    height: 100vh;
+    opacity: 90%;
+  }
+  h2{
+    color: #4d4d4d;
+    font-size: 2rem;
+  }
+  .seat-container {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr); 
+    grid-gap: 10px; 
+    margin-top: 20px;
+  }
+  
+  .seat {
+    width: 50px;
+    height: 50px;
+    background-color:#ededf4;
+    color:  #3dd900;
+    border: 2px solid #3bcf00;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .seat:hover{
+    box-shadow: 0 0 .4rem rgb(95, 95, 95);
+    background-color: rgb(217, 217, 217);
+  }
+  
+  .seat.selected {
+    background-color: #16df00;
+    border: 2px solid #009600;
+    color: white;
+    box-shadow: 0 0 .4rem rgb(118, 147, 107);
+  }
+  .screen{
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vh;
+    width: 60vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 1rem rgb(128, 128, 128);
+    border-radius: 2rem;
+  }
+ 
+  .buttons{
+    display: flex;
+    margin-top: 2rem;
+    height: 5rem;
+  }
+  .Book_button {
+    display: block;
+    max-width: 3rem;
+    background-color: #292929;
+    transition: all .4s;
+  }
+  .Book_button:hover{
+    background-color: #dddddd;
+    color:  #292929 ;
+    box-shadow: 0 0 .6rem black;
+
+  }
+  .procced{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #439eff;
+    color: #ededed;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 17rem;
+    transition: all .5s;
+  }
+  .procced:hover{
+    background-color: #1a89ff;
+    box-shadow: 0 0 1rem #292929;
+  }

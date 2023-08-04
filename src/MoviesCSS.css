@@ -1,0 +1,64 @@
+
+.Section_title{
+    margin-left: 2rem;
+    max-width: 9rem;
+    border-bottom: .2rem solid rgb(100, 100, 100);
+
+  }
+  .Movies_section {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+    align-items: center;
+    
+  }
+  
+  .movie {
+    width: auto;
+    flex: 1 1 1;
+    padding: 1rem;
+  }
+  
+  .movie_sha {
+    line-break: auto;
+    box-shadow: 0 0 1rem rgb(144, 144, 144);
+    background-color: rgb(246, 246, 246); 
+    padding: 1rem;
+    transition: .4s;
+    border-radius: 2rem;
+  }
+  .movie_sha:hover{
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 0rem 0 2rem rgb(184, 184, 184);
+    border-radius: 2.5rem;
+  }
+  .Movies_section img {
+    height: 13rem;
+    width: 25rem;
+    overflow: hidden;
+    border-radius: 1rem;
+  }
+  
+  .Movies_section h1 {
+    font-size: 1rem;
+    line-break: auto;
+  }
+  .Book_buttoon{
+    display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 42px;
+  cursor: pointer;
+  }
+.Book_buttoon:hover{
+    background-color: #0056b3;
+    
+  }
